@@ -1,3 +1,3 @@
-admin1 = 1138527802
-admin2 = 5602781353
-admin3 = 806166779
+admin1 = 1 #your admin
+admin2 = 1 #your admin
+admin3 = 1 #your admin

@@ -151,13 +151,13 @@ async def get_phone_number(message: types.Message):
         if language == "ROM":
             textForAdmin = f"Номер телефона: {phone_number}\nВыбранные модели: {cart}"
             textForUser = textForcommandPhoneROM
-            await bot.send_message(1138527802, textForAdmin)
+            await bot.send_message(admin1, textForAdmin)
             await message.answer(text=textForUser)
         
         if language == "RU":   
             textForAdmin = f"Номер телефона: {phone_number}\nВыбранные модели: {cart}"
             #bot send message with user's order to admin
-            await bot.send_message(1138527802, textForAdmin)
+            await bot.send_message(admin1, textForAdmin)
             textForUser = textForcommandPhoneRU
             await message.answer(text=textForUser)  
         
